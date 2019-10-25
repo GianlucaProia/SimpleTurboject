@@ -18,8 +18,8 @@ public class Compressor {
 	
 	private double omega;
 	private double beta;
-
-
+	
+	
 	// Costruttore...
 	public Compressor(double P0in, double T0in, double Pout, double Tout ){
 		AirFlow airFlowIn = new AirFlow();
