@@ -19,6 +19,8 @@ public class Compressor {
 	
 	private double omega;
 	
+	private double beta;
+	
 	
 	// Costruttore...
 	public Compressor(){
