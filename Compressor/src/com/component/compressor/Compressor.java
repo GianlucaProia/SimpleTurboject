@@ -18,9 +18,7 @@ public class Compressor {
 	private AirFlow airFlowOut;
 	
 	private double omega;
-	
 	private double beta;
-	
 	
 	// Costruttore...
 	public Compressor(double P0in, double T0in, double Pout, double Tout ){
