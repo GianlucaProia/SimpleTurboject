@@ -1,6 +1,5 @@
 package com.component.compressor;
 
-import java.util.List;
 
 import com.air.flow.AirFlow;
 import com.component.stage.CompressorStage;
@@ -19,7 +18,8 @@ public class Compressor {
 	
 	private double omega;
 	private double beta;
-	
+
+
 	// Costruttore...
 	public Compressor(double P0in, double T0in, double Pout, double Tout ){
 		AirFlow airFlowIn = new AirFlow();
@@ -135,5 +135,14 @@ public class Compressor {
 		this.omega = omega;
 	}
 	
+	
+	public double getBeta() {
+		return beta;
+	}
+
+
+	public void setBeta(double beta) {
+		this.beta = beta;
+	}
 	
 }
