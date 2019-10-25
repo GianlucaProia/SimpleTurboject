@@ -12,6 +12,36 @@ public class CompressorStage {
 	public CompressorStage() {
 		
 	}
+
+
+	public HalfStage getRotativeStage() {
+		return rotativeStage;
+	}
+
+
+	public void setRotativeStage(HalfStage rotativeStage) {
+		this.rotativeStage = rotativeStage;
+	}
+
+
+	public HalfStage getFixedStage() {
+		return fixedStage;
+	}
+
+
+	public void setFixedStage(HalfStage fixedStage) {
+		this.fixedStage = fixedStage;
+	}
+
+
+	public double getReactionDegree() {
+		return reactionDegree;
+	}
+
+
+	public void setReactionDegree(double reactionDegree) {
+		this.reactionDegree = reactionDegree;
+	}
 	
 	
 	
