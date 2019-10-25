@@ -8,6 +8,7 @@ import com.component.stage.CompressorStage;
 public class Compressor {
 
 	private List<CompressorStage> listAllStages;
+	
 	private double Ain;
 	private double Aout;
 	private double lenght;
@@ -19,12 +20,105 @@ public class Compressor {
 	private double omega;
 	
 	
-	
+	// Costruttore...
 	public Compressor(){
 		
 	}
-	
-	
+
+	// Metodi get e set..
+	public List<CompressorStage> getListAllStages() {
+		return listAllStages;
+	}
+
+
+
+	public void setListAllStages(List<CompressorStage> listAllStages) {
+		this.listAllStages = listAllStages;
+	}
+
+
+
+	public double getAin() {
+		return Ain;
+	}
+
+
+
+	public void setAin(double ain) {
+		Ain = ain;
+	}
+
+
+
+	public double getAout() {
+		return Aout;
+	}
+
+
+
+	public void setAout(double aout) {
+		Aout = aout;
+	}
+
+
+
+	public double getLenght() {
+		return lenght;
+	}
+
+
+
+	public void setLenght(double lenght) {
+		this.lenght = lenght;
+	}
+
+
+
+	public double getWeight() {
+		return weight;
+	}
+
+
+
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+
+
+
+	public AirFlow getAirFlowIn() {
+		return airFlowIn;
+	}
+
+
+
+	public void setAirFlowIn(AirFlow airFlowIn) {
+		this.airFlowIn = airFlowIn;
+	}
+
+
+
+	public AirFlow getAirFlowOut() {
+		return airFlowOut;
+	}
+
+
+
+	public void setAirFlowOut(AirFlow airFlowOut) {
+		this.airFlowOut = airFlowOut;
+	}
+
+
+
+	public double getOmega() {
+		return omega;
+	}
+
+
+
+	public void setOmega(double omega) {
+		this.omega = omega;
+	}
 	
 	
 }

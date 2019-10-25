@@ -15,6 +15,8 @@ public class AirFlow {
 	private double cv;
 	private double gamma;
 	
+	private double MachIn;
+	private double MachOut;
 	
 	private double Cz;
 	
