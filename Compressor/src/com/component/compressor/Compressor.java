@@ -7,7 +7,7 @@ import com.component.stage.CompressorStage;
 
 public class Compressor {
 
-	private List<CompressorStage> listAllStages;
+	private CompressorStage[] listAllStages;
 	
 	private double Ain;
 	private double Aout;
@@ -37,13 +37,13 @@ public class Compressor {
 	} 
 
 	// Metodi get e set..
-	public List<CompressorStage> getListAllStages() {
+	public CompressorStage[] getListAllStages() {
 		return listAllStages;
 	}
 
 
 
-	public void setListAllStages(List<CompressorStage> listAllStages) {
+	public void setListAllStages(CompressorStage[] listAllStages) {
 		this.listAllStages = listAllStages;
 	}
 
