@@ -36,6 +36,12 @@ public class Compressor {
 		
 	} 
 
+	
+	public Compressor(){
+		
+	}
+	
+	
 	// Metodi get e set..
 	public CompressorStage[] getListAllStages() {
 		return listAllStages;
