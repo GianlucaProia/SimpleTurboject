@@ -26,6 +26,15 @@ public class Test {
 		}
 		
 		}
+		
+		
+		System.out.println("\nTipi di ritorno dei metodi\n");
+		for(int i=0; i<metodi.length; i++) {
+			System.out.println(metodi[i].getGenericReturnType().getTypeName());
+		}
+		
+		
+		
 	
 	}
 	
