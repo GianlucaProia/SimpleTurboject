@@ -20,7 +20,6 @@ public class Compressor implements CompressorInterface  {
 	private double beta;
 	
 	
-	
 	// Costruttore...
 	public Compressor(double P0in, double T0in, double Pout, double Tout ){
 		AirFlow airFlowIn = new AirFlow();
