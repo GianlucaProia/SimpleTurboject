@@ -14,12 +14,11 @@ public class AirFlow {
 	private double cp;
 	private double cv;
 	private double gamma;
+	private double R;
 	
-	private double MachIn;
-	private double MachOut;
+	private double MachNumber;
 	
 	private double Cz;
-	
 	
 	// Costruttore...
 	public AirFlow() {
@@ -159,31 +158,6 @@ public class AirFlow {
 	}
 
 
-
-	public double getMachIn() {
-		return MachIn;
-	}
-
-
-
-	public void setMachIn(double machIn) {
-		MachIn = machIn;
-	}
-
-
-
-	public double getMachOut() {
-		return MachOut;
-	}
-
-
-
-	public void setMachOut(double machOut) {
-		MachOut = machOut;
-	}
-
-
-
 	public double getCz() {
 		return Cz;
 	}
@@ -192,6 +166,26 @@ public class AirFlow {
 
 	public void setCz(double cz) {
 		Cz = cz;
+	}
+
+
+	public double getR() {
+		return R;
+	}
+
+
+	public void setR(double r) {
+		R = r;
+	}
+
+
+	public double getMachNumber() {
+		return MachNumber;
+	}
+
+
+	public void setMachNumber(double machNumber) {
+		MachNumber = machNumber;
 	}
 	
 	

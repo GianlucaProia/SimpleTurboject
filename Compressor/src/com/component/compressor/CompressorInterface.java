@@ -8,7 +8,7 @@ public interface CompressorInterface {
 	// Metodi get e set..
 	
 	CompressorStage[] getListAllStages();
-
+	
 	void setListAllStages(CompressorStage[] listAllStages);
 
 	double getAin();
