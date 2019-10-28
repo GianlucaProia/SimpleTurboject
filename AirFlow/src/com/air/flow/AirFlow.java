@@ -22,13 +22,13 @@ public class AirFlow {
 	
 	private double Cz;
 	
-	
+	// Costruttore...
 	public AirFlow() {
 		
 	}
 
 
-
+	// Metodi get and set...
 	public double getT0in() {
 		return T0in;
 	}
