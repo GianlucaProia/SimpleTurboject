@@ -16,7 +16,6 @@ public class AirFlow {
 	private double gamma;
 	private double R;
 	
-	
 	private double MachIn;
 	private double MachOut;
 	
