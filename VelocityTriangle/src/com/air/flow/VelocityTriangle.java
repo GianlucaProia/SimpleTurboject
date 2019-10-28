@@ -7,7 +7,8 @@ public class VelocityTriangle {
 	private double Cz;
 	private double Ctheta;
 	private double W;
-	
+	private double Wz;
+	private double Wtheta;
 	
 	
 	private double alphaIn;
