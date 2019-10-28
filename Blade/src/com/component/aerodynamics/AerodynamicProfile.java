@@ -8,6 +8,7 @@ public class AerodynamicProfile {
 	private double[] bottomProfile;
 	
 	private double alpha;
+	private double stagingAngle;
 	
 	
 	
