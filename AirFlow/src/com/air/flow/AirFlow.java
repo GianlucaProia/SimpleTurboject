@@ -14,12 +14,13 @@ public class AirFlow {
 	private double cp;
 	private double cv;
 	private double gamma;
+	private double R;
+	
 	
 	private double MachIn;
 	private double MachOut;
 	
 	private double Cz;
-	
 	
 	
 	public AirFlow() {
