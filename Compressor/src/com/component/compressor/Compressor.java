@@ -4,8 +4,8 @@ package com.component.compressor;
 import com.air.flow.AirFlow;
 import com.component.stage.CompressorStage;
 
-public class Compressor implements CompressorInterface {
-
+public class Compressor implements CompressorInterface  {
+	
 	private CompressorStage[] listAllStages;
 	
 	private double Ain;
@@ -18,6 +18,7 @@ public class Compressor implements CompressorInterface {
 	
 	private double omega;
 	private double beta;
+	
 	
 	
 	// Costruttore...
@@ -34,7 +35,7 @@ public class Compressor implements CompressorInterface {
 		
 	} 
 
-	
+	// Costruttore...
 	public Compressor(){
 		
 	}
