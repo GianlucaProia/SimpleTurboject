@@ -33,9 +33,7 @@ public class Test {
 			System.out.println(metodi[i].getGenericReturnType().getTypeName());
 		}
 		
-		
-		
-	
+
 	}
 	
 
