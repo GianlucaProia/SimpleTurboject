@@ -6,7 +6,7 @@ public class CompressorStage {
 	
 	private HalfStage rotativeStageMeanRadius;
 	private HalfStage fixedStageMeanRadius;
-	private double reactionDegree;	
+	private double reactionDegreeMeanRadius;	
 	
 	
 	public CompressorStage() {
@@ -34,14 +34,14 @@ public class CompressorStage {
 	}
 
 
-	public double getReactionDegree() {
-		return reactionDegree;
+	public double getReactionDegreeMeanRadius() {
+		return reactionDegreeMeanRadius;
 	}
 
 
-	public void setReactionDegree(double reactionDegree) {
-		this.reactionDegree = reactionDegree;
+	public void setReactionDegreeMeanRadius(double reactionDegreeMeanRadius) {
+		this.reactionDegreeMeanRadius = reactionDegreeMeanRadius;
 	}
 
-	
+
 }

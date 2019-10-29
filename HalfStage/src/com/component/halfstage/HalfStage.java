@@ -11,13 +11,6 @@ public class HalfStage {
 	private double sigma;
 	private double radius;
 	
-	private AirFlow airFlowIn;
-	private AirFlow airFlowOut;
-	
-	private double U;
-	private double omega;
-	
-	
 	// Costruttore
 	public HalfStage() {
 		
