@@ -4,9 +4,13 @@ import com.component.halfstage.HalfStage;
 
 public class CompressorStage {
 	
+	private HalfStage rotativeStage;
+	private HalfStage fixedStage;
+	
 	private HalfStage rotativeStageMeanRadius;
-	private HalfStage fixedStageMeanRadius;
+	private HalfStage fixedStageMeanradius;
 	private double reactionDegreeMeanRadius;	
+	
 	
 	
 	public CompressorStage() {
@@ -14,23 +18,23 @@ public class CompressorStage {
 	}
 
 
-	public HalfStage getRotativeStageMeanRadius() {
-		return rotativeStageMeanRadius;
+	public HalfStage getRotativeStage() {
+		return rotativeStage;
 	}
 
 
-	public void setRotativeStageMeanRadius(HalfStage rotativeStageMeanRadius) {
-		this.rotativeStageMeanRadius = rotativeStageMeanRadius;
+	public void setRotativeStage(HalfStage rotativeStage) {
+		this.rotativeStage = rotativeStage;
 	}
 
 
-	public HalfStage getFixedStageMeanRadius() {
-		return fixedStageMeanRadius;
+	public HalfStage getFixedStage() {
+		return fixedStage;
 	}
 
 
-	public void setFixedStageMeanRadius(HalfStage fixedStageMeanRadius) {
-		this.fixedStageMeanRadius = fixedStageMeanRadius;
+	public void setFixedStage(HalfStage fixedStage) {
+		this.fixedStage = fixedStage;
 	}
 
 

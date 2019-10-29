@@ -9,7 +9,11 @@ public class CombustionCamber {
 	
 	private double Q;
 	private double lenght;
-	
-	
+	private double Ain;
+	private double Aout;
+
+	public CombustionCamber(){
+		
+	}
 	
 }
