@@ -5,11 +5,12 @@ import com.component.aerodynamics.AerodynamicProfile;
 
 public class Blade {
 	
-	private VelocityTriangle velocityTriangleInMeanRadius;
-	private VelocityTriangle velocityTriangleOutMeanRadius;
+	// Triangolo di velocità...
+	private VelocityTriangle velocityTriangleMeanRadiusIn;
+	private VelocityTriangle velocityTriangleMeanRadiusOut;
 	private VelocityTriangle[] listAllVelocityTriangle;
 	
-	
+	// Profili aerodinamici...
 	private AerodynamicProfile profileMeanRadius;
 	private AerodynamicProfile[] listAllProfiles;
 	
