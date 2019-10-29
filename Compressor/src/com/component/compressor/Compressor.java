@@ -22,23 +22,9 @@ public class Compressor implements CompressorInterface  {
 	
 	
 	// Costruttore...
-	public Compressor(double P0in, double T0in, double Pout, double Tout ){
-		AirFlow airFlowIn = new AirFlow();
-		airFlowIn.setP0in(P0in);
-		airFlowIn.setT0in(T0in);
-		this.airFlowIn = airFlowIn;
-		
-		AirFlow airFlowOut = new AirFlow();
-		airFlowOut.setP0in(P0in);
-		airFlowOut.setT0in(T0in);
-		this.airFlowOut = airFlowOut;
-		
-	} 
-
-	// Costruttore...
 	public Compressor(){
 		
-	}
+	} 
 	
 	
 	// Metodi get e set..
