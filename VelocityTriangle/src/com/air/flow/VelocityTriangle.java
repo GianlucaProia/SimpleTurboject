@@ -10,7 +10,6 @@ public class VelocityTriangle {
 	private double Wz;
 	private double Wtheta;
 	
-	
 	private double alphaIn;
 	private double betaIn;
 	
