@@ -1,12 +1,14 @@
 package com.component.blade;
 
-import com.air.flow.VelocityTriangleInterface;
+import com.air.flow.VelocityTriangle;
 import com.component.aerodynamics.AerodynamicProfile;
 
 public class Blade {
 	
-	private VelocityTriangleInterface velocityTriangleIn;
-	private VelocityTriangleInterface velocityTriangleOut;
+	private VelocityTriangle velocityTriangleInMeanRadius;
+	private VelocityTriangle velocityTriangleOutMeanRadius;
+	private VelocityTriangle[] listAllVelocityTriangle;
+	
 	
 	private AerodynamicProfile profileMeanRadius;
 	private AerodynamicProfile[] listAllProfiles;
