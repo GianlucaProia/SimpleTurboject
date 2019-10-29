@@ -1,15 +1,12 @@
 package com.component.halfstage;
 
 import com.air.flow.AirFlow;
-import com.air.flow.VelocityTriangle;
 import com.component.blade.Blade;
 
 public class HalfStage {
-
-	private VelocityTriangle velocityTriangleIn;
-	private VelocityTriangle velocityTriangleOut;
 	
 	private Blade blade;
+	private Blade[] listOfBlades;
 	private double bladeNumber;
 	
 	private double sigma;
