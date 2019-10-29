@@ -27,6 +27,6 @@ public class AerodynamicProfile {
 	
 	private double reactionDegree;
 	
-	
+	private double radius;
 	
 }
