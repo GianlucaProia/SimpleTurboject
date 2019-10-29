@@ -2,14 +2,10 @@ package com.air.flow;
 
 public class AirFlow {
 
-	private double T0in;
-	private double Tin;
-	private double T0out;
-	private double Tout;
-	private double P0in;
-	private double Pin;
-	private double P0out;
-	private double Pout;
+	private double T0;
+	private double T;
+	private double P0;
+	private double P;
 	
 	private double cp;
 	private double cv;
@@ -27,101 +23,6 @@ public class AirFlow {
 
 
 	// Metodi get and set...
-	public double getT0in() {
-		return T0in;
-	}
-
-
-	// Metodi per il calcolo delle quantità sopra elencate...
-	public void setT0in(double t0in) {
-		T0in = t0in;
-	}
-
-
-
-	public double getTin() {
-		return Tin;
-	}
-
-
-
-	public void setTin(double tin) {
-		Tin = tin;
-	}
-
-
-
-	public double getT0out() {
-		return T0out;
-	}
-
-
-
-	public void setT0out(double t0out) {
-		T0out = t0out;
-	}
-
-
-
-	public double getTout() {
-		return Tout;
-	}
-
-
-
-	public void setTout(double tout) {
-		Tout = tout;
-	}
-
-
-
-	public double getP0in() {
-		return P0in;
-	}
-
-
-
-	public void setP0in(double p0in) {
-		P0in = p0in;
-	}
-
-
-
-	public double getPin() {
-		return Pin;
-	}
-
-
-
-	public void setPin(double pin) {
-		Pin = pin;
-	}
-
-
-
-	public double getP0out() {
-		return P0out;
-	}
-
-
-
-	public void setP0out(double p0out) {
-		P0out = p0out;
-	}
-
-
-
-	public double getPout() {
-		return Pout;
-	}
-
-
-
-	public void setPout(double pout) {
-		Pout = pout;
-	}
-
-
 
 	public double getCp() {
 		return cp;
