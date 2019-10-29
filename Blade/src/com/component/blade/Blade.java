@@ -15,6 +15,7 @@ public class Blade {
 	private AerodynamicProfile[] listAllProfiles;
 	
 	private double height;
+	private double[] flambage; 
 	
 	public Blade(){
 		
