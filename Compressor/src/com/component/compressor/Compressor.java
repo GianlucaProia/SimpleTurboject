@@ -18,8 +18,7 @@ public class Compressor implements CompressorInterface  {
 	
 	private double omega;
 	private double beta;
-	
-	
+
 	
 	// Costruttore...
 	public Compressor(){
