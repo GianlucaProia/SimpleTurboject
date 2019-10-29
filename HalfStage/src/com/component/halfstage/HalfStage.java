@@ -6,7 +6,6 @@ import com.component.blade.Blade;
 public class HalfStage {
 	
 	private Blade blade;
-	private Blade[] listOfBlades;
 	private double bladeNumber;
 	
 	private double sigma;
