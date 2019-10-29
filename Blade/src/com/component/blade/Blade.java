@@ -13,8 +13,9 @@ public class Blade {
 	
 	private double height;
 	
-	
-	
+	public Blade(){
+		
+	}	
 	
 
 }
