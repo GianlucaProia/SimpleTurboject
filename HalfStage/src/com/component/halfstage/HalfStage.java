@@ -9,10 +9,10 @@ public class HalfStage {
 	private double bladeNumber;
 	
 	private double sigmaMeanRadius;
-	private double radiusMeanRadius;
+	private double MeanRadius;
 	
-	private double[] listSigmaAlongRadius;
-	private double[] listRadius;
+//	private double[] listSigmaAlongRadius;
+//	private double[] listRadius;
 	
 	// Costruttore
 	public HalfStage() {
