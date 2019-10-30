@@ -16,6 +16,7 @@ public class AerodynamicProfile {
 	
 	private double Chord;
 	
+	private double[] completeProfile;
 	private double[] topProfile;
 	private double[] bottomProfile;
 	

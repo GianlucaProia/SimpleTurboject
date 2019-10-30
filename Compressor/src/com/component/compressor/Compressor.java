@@ -19,6 +19,12 @@ public class Compressor implements CompressorInterface  {
 	private double omega;
 	private double beta;
 
+	private int numberShaft;
+	
+	// Rendimenti...
+	private double etaAdiabatico;
+	private double etaMeccanico;
+	
 	
 	// Costruttore...
 	public Compressor(){

@@ -15,9 +15,8 @@ public class AirFlow {
 	private double MachNumber;
 	
 	private double Cz;
-	
-	// Costruttore...
-	public AirFlow() {
+
+	public AirFlow(){
 		
 	}
 
