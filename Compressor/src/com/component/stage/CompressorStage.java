@@ -7,8 +7,6 @@ public class CompressorStage {
 	private HalfStage rotativeStage;
 	private HalfStage fixedStage;
 	
-	private HalfStage rotativeStageMeanRadius;
-	private HalfStage fixedStageMeanradius;
 	private double reactionDegreeMeanRadius;	
 	
 	
