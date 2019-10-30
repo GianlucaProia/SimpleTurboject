@@ -29,4 +29,10 @@ public class AerodynamicProfile {
 	
 	private double radius;
 	
+	// Caratteristiche del rotore...
+	private double sigma;
+	
+	private double[] listSigmaAlongRadius;
+	
+	
 }
