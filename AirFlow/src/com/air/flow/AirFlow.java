@@ -23,6 +23,46 @@ public class AirFlow {
 
 	// Metodi get and set...
 
+	public double getT0() {
+		return T0;
+	}
+
+
+	public void setT0(double t0) {
+		T0 = t0;
+	}
+
+
+	public double getT() {
+		return T;
+	}
+
+
+	public void setT(double t) {
+		T = t;
+	}
+
+
+	public double getP0() {
+		return P0;
+	}
+
+
+	public void setP0(double p0) {
+		P0 = p0;
+	}
+
+
+	public double getP() {
+		return P;
+	}
+
+
+	public void setP(double p) {
+		P = p;
+	}
+
+
 	public double getCp() {
 		return cp;
 	}
