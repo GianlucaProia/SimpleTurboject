@@ -8,6 +8,6 @@ public class Fan {
 	private Blade blade;
 	private AirFlow airFlow;
 	
-	
+	private double omega;
 	
 }
