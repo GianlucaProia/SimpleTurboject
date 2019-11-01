@@ -33,8 +33,8 @@ public class Turboject {
 		this.combustionCamber = combustionCamber;
 		this.turbine = turbine;
 		this.nozzle = nozzle;
-	}
-
+	} 
+	
 	
 
 
