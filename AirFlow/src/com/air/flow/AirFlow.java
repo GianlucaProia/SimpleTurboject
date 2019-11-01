@@ -11,7 +11,6 @@ public class AirFlow {
 	private double P0Out;
 	private double POut;
 	
-	
 	private double cpIn;
 	private double cvIn;
 	private double gammaIn;

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CombustionCamber"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Compressor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Fan"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Inlet"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Nozzle"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Turbine"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
