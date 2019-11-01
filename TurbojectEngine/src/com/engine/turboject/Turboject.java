@@ -25,6 +25,19 @@ public class Turboject {
 	}
 	
 	
+	public Turboject(Inlet inlet, Fan fan, Compressor compressor, CombustionCamber combustionCamber, Turbine turbine,
+			Nozzle nozzle) {
+		this.inlet = inlet;
+		this.fan = fan;
+		this.compressor = compressor;
+		this.combustionCamber = combustionCamber;
+		this.turbine = turbine;
+		this.nozzle = nozzle;
+	}
+
+	
+
+
 	// Metodi get e set...
 	public Inlet getInlet() {
 		return inlet;
