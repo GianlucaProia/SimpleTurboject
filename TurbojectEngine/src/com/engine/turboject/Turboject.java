@@ -6,6 +6,7 @@ import com.component.fan.Fan.Fan;
 import com.component.inlet.Inlet;
 import com.component.nozzle.Nozzle;
 import com.component.turbine.Turbine;
+import com.performance.Performance;
 
 public class Turboject {
 	
@@ -16,7 +17,7 @@ public class Turboject {
 	private CombustionCamber combustionCamber;
 	private Turbine turbine;
 	private Nozzle nozzle;
-	
+	private Performance performace;
 	
 	
 	// Costruttore
