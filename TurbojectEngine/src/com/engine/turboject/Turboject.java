@@ -87,6 +87,16 @@ public class Turboject {
 	public void setNozzle(Nozzle nozzle) {
 		this.nozzle = nozzle;
 	}
+
+
+	public Performance getPerformace() {
+		return performace;
+	}
+
+
+	public void setPerformace(Performance performace) {
+		this.performace = performace;
+	}
 	
 	
 
