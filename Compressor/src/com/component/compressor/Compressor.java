@@ -1,6 +1,8 @@
 package com.component.compressor;
 
 
+import java.util.Arrays;
+
 import com.air.flow.AirFlow;
 import com.component.stage.CompressorStage;
 
@@ -204,5 +206,16 @@ public class Compressor implements CompressorInterface  {
 	public void setBeta(double beta) {
 		this.beta = beta;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Compressor [listAllStages=" + Arrays.toString(listAllStages) + ", Ain=" + Ain + ", Aout=" + Aout
+				+ ", lenght=" + lenght + ", weight=" + weight + ", airFlowIn=" + airFlowIn + ", airFlowOut="
+				+ airFlowOut + ", omega=" + omega + ", beta=" + beta + ", numberShaft=" + numberShaft
+				+ ", etaAdiabatico=" + etaAdiabatico + ", etaMeccanico=" + etaMeccanico + "]";
+	}
+	
+	
 	
 }
