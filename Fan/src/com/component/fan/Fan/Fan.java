@@ -9,5 +9,11 @@ public class Fan {
 	private AirFlow airFlow;
 	
 	private double omega;
+	private double etaMeccanico;
+	
+	private double beta;
+	
+	
+	
 	
 }
