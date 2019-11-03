@@ -19,7 +19,7 @@ public class TestCEA {
 //			e.printStackTrace();
 //		} 
 		
-		System.setProperty("user.dir","C:\\Users\\Utente\\Desktop\\CEA");
+//		System.setProperty("user.dir","C:\\Users\\Utente\\Desktop\\CEA");
 		//Process runtime = Runtime.getRuntime().exec("cmd /c @echo Combustion|FCEA2");
 		
 //		ProcessBuilder builder = new ProcessBuilder(
@@ -29,7 +29,7 @@ public class TestCEA {
 //	        builder.redirectErrorStream(true);
 //	        Process p = builder.start();
 			
-		 Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd C:/Users/Utente/Desktop/CEA && @echo Combustion|FCEA2\""); 
+		 Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd C:/Users/Utente/Desktop/CEA && @echo Combustion|FCEA2 && exit\""); 
 	}
 	
 
