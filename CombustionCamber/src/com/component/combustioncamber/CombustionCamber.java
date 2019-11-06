@@ -11,6 +11,8 @@ public class CombustionCamber {
 	private double lenght;
 	private double Ain;
 	private double Aout;
+	
+	private double f;
 
 	public CombustionCamber(){
 		
