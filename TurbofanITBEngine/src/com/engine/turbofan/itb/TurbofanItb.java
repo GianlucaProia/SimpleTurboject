@@ -20,5 +20,21 @@ public class TurbofanItb {
 	private Nozzle nozzle;
 	
 	
+	// Coastruttore...
+	public TurbofanItb(Inlet inlet, Fan fan, Compressor lowCompressor, Compressor highCompressor,
+			CombustionCamber mainCombustor, Turbine highTurbine, CombustionCamber itgCombustor, Turbine lowTurbine,
+			Nozzle nozzle) {
+		this.inlet = inlet;
+		this.fan = fan;
+		this.lowCompressor = lowCompressor;
+		this.highCompressor = highCompressor;
+		this.mainCombustor = mainCombustor;
+		this.highTurbine = highTurbine;
+		this.itgCombustor = itgCombustor;
+		this.lowTurbine = lowTurbine;
+		this.nozzle = nozzle;
+	}
+	
+	
 
 }
