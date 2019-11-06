@@ -28,6 +28,7 @@ public class Compressor implements CompressorInterface  {
 	private double etaMeccanico;
 	
 	
+	
 	// Costruttore...
 	public Compressor(){
 		
