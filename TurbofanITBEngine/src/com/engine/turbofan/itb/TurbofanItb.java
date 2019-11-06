@@ -20,7 +20,7 @@ public class TurbofanItb {
 	private Nozzle nozzle;
 	
 	
-	// Coastruttore...
+	// Costruttore...
 	public TurbofanItb(Inlet inlet, Fan fan, Compressor lowCompressor, Compressor highCompressor,
 			CombustionCamber mainCombustor, Turbine highTurbine, CombustionCamber itgCombustor, Turbine lowTurbine,
 			Nozzle nozzle) {
