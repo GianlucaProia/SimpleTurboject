@@ -27,7 +27,8 @@ public class Compressor implements CompressorInterface  {
 	private double etaAdiabatico;
 	private double etaMeccanico;
 	
-	
+	// Mappa del compressore...
+	private CompressorMap compressorMap;
 	
 	// Costruttore...
 	public Compressor(){
