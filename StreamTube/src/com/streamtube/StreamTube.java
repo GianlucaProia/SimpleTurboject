@@ -8,6 +8,10 @@ public class StreamTube {
 	private double Ain;
 	private double Aout;
 	
+	public StreamTube() {
+		
+	}
+	
 	
 	
 }
