@@ -10,7 +10,7 @@ public class Blade {
 	private AerodynamicProfile[] listAllProfiles;
 	
 	private double height;
-	private double[] flambage;  
+	private double[] flambage;  // Svergolamento...
 	
 	public Blade(){
 		
