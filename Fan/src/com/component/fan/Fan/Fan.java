@@ -1,11 +1,13 @@
 package com.component.fan.Fan;
 
 import com.air.flow.AirFlow;
-import com.component.halfstage.HalfStage;
+import com.component.blade.Blade;
 
 public class Fan {
 
-	private HalfStage rotativeStage;
+	private Blade blade;
+	private int numberBlades;
+	
 	private AirFlow airFlow;
 	
 	private double omega;
