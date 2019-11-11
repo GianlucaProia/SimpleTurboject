@@ -21,5 +21,4 @@ public class Fan {
 	private double beta;
 	
 	
-	
 }

@@ -16,5 +16,16 @@ public class TurbofanAssFlow {
 	private Turbine turbine;
 	private Nozzle nozzle;
 	
+	// Costruttore...
+	public TurbofanAssFlow(Inlet inlet, Fan fan, Compressor compressor, CombustionCamber combustionCamber,
+			Turbine turbine, Nozzle nozzle) {
+		this.inlet = inlet;
+		this.fan = fan;
+		this.compressor = compressor;
+		this.combustionCamber = combustionCamber;
+		this.turbine = turbine;
+		this.nozzle = nozzle;
+	}
+	
 	
 }
