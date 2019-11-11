@@ -8,7 +8,11 @@ public class Fan {
 	private Blade blade;
 	private int numberBlades;
 	
-	private AirFlow airFlow;
+	private AirFlow airFlowTotal;
+	private AirFlow airFlowExternal;
+	private AirFlow airFlowCompressor;
+	
+	private double bpr;
 	
 	private double omega;
 	private double etaMeccanico;
