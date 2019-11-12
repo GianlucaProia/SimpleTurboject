@@ -25,7 +25,7 @@ public class AirFlow {
 	
 	private double CzIn;
 	private double CzOut;
-
+	
 	
 	public AirFlow(){
 		// Empty constructor

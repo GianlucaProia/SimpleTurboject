@@ -1,7 +1,11 @@
 package com.component.nozzle;
 
-public class Nozzle {
+import com.air.flow.AirFlow;
 
+public class Nozzle {
+	
+	private AirFlow airFlow;
+	
 	private double Ain;
 	private double Ath;
 	private double Aout;
