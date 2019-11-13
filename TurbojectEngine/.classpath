@@ -8,5 +8,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/Inlet"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Nozzle"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Turbine"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Performance"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
