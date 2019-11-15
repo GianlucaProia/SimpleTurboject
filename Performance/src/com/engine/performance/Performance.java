@@ -11,5 +11,10 @@ public class Performance {
 	private double etaTot;
 	
 	
+	public String calculateThrust(double flowRate, double velExit, double V0) {
+		
+		return "Thrust["+flowRate+","+velExit+","+V0+"]";
+	}
+	
 	
 }
