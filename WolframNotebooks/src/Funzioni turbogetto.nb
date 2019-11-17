@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[     35845,        913]
-NotebookOptionsPosition[     34298,        859]
-NotebookOutlinePosition[     34670,        875]
-CellTagsIndexPosition[     34627,        872]
+NotebookDataLength[     36272,        923]
+NotebookOptionsPosition[     34725,        869]
+NotebookOutlinePosition[     35097,        885]
+CellTagsIndexPosition[     35054,        882]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -187,11 +187,18 @@ Cell[BoxData[{
          RowBox[{
           RowBox[{"getAirFlow", "[", "]"}], "@", 
           RowBox[{"getGamma", "[", "]"}]}]}]}], "\[IndentingNewLine]", 
-       "]"}]}], ";"}]}], "\[IndentingNewLine]", "]"}]}]}], "Input",
+       "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"(*", " ", "Set", " ", "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"inletObject", "@", 
+      RowBox[{
+       RowBox[{"getAirFlow", "[", "]"}], "@", 
+       RowBox[{"setPout", "[", "Pout", "]"}]}]}], ";"}]}], 
+   "\[IndentingNewLine]", "]"}]}]}], "Input",
  CellChangeTimes->{{3.7825435360567675`*^9, 3.782543568302724*^9}, {
    3.7825437976969175`*^9, 3.782543829658228*^9}, 3.7825461188733535`*^9, {
    3.782980615248711*^9, 3.782980645066516*^9}, {3.7829807359211216`*^9, 
-   3.78298080044293*^9}, {3.7829808470990095`*^9, 3.7829808598816376`*^9}},
+   3.78298080044293*^9}, {3.7829808470990095`*^9, 3.7829808598816376`*^9}, {
+   3.7829837858772964`*^9, 3.782983786094171*^9}},
  Background->GrayLevel[0.85],
  ExpressionUUID -> "c3f67de9-9c43-45a7-b4cb-fbf60b3eea69"],
 
@@ -259,7 +266,8 @@ Cell[BoxData[
    3.7825460343903675`*^9}, {3.782546671616088*^9, 3.7825466730551386`*^9}, {
    3.782552730632785*^9, 3.7825528341496563`*^9}, 3.782553671933612*^9, {
    3.782553801126277*^9, 3.782553821470452*^9}, {3.7825559718070936`*^9, 
-   3.782555974489244*^9}, {3.7829809488993034`*^9, 3.7829809515707626`*^9}},
+   3.782555974489244*^9}, {3.7829809488993034`*^9, 3.7829809515707626`*^9}, 
+   3.7829837821504445`*^9},
  ExpressionUUID -> "d246831e-d566-449d-b92a-dfe40e4147de"],
 
 Cell[TextData[StyleBox["Stesso metodo di sopra accorciato...",
@@ -277,9 +285,11 @@ Cell[BoxData[
     RowBox[{
      RowBox[{"CalculateInletTout", "[", "inletObject", "]"}], ";", 
      "\[IndentingNewLine]", 
-     RowBox[{"CalculateInletTout", "[", "inletObject", "]"}], ";"}]}], 
+     RowBox[{"CalculateInletPout", "[", "inletObject", "]"}], ";"}]}], 
    "\[IndentingNewLine]", "]"}]}]], "Input",
- CellChangeTimes->{{3.7829809579380913`*^9, 3.782980998664605*^9}}]
+ CellChangeTimes->{{3.7829809579380913`*^9, 3.782980998664605*^9}, {
+  3.782983245430956*^9, 3.782983277238615*^9}, {3.782983802363803*^9, 
+  3.7829838044525843`*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -883,36 +893,36 @@ Cell[1124, 38, 268, 5, 28, "Text"],
 Cell[1395, 45, 1400, 34, 130, "Input"],
 Cell[2798, 81, 1627, 43, 249, "Input"],
 Cell[4428, 126, 314, 9, 43, "Input"],
-Cell[4745, 137, 2404, 58, 357, "Input"],
-Cell[7152, 197, 3056, 65, 370, "Input"],
-Cell[10211, 264, 174, 3, 28, "Text"],
-Cell[10388, 269, 515, 12, 90, "Input"]
+Cell[4745, 137, 2703, 65, 397, "Input"],
+Cell[7451, 204, 3084, 66, 370, "Input"],
+Cell[10538, 272, 174, 3, 28, "Text"],
+Cell[10715, 277, 615, 14, 90, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10940, 286, 158, 3, 61, "Section"],
-Cell[11101, 291, 783, 23, 116, "Input"],
-Cell[11887, 316, 2157, 46, 330, "Input"]
+Cell[11367, 296, 158, 3, 61, "Section"],
+Cell[11528, 301, 783, 23, 116, "Input"],
+Cell[12314, 326, 2157, 46, 330, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14081, 367, 208, 4, 61, "Section"],
-Cell[14292, 373, 477, 13, 68, "Input"],
-Cell[14772, 388, 1679, 35, 230, "Input"]
+Cell[14508, 377, 208, 4, 61, "Section"],
+Cell[14719, 383, 477, 13, 68, "Input"],
+Cell[15199, 398, 1679, 35, 230, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[16488, 428, 253, 4, 61, "Section"],
-Cell[16744, 434, 1381, 36, 125, "Input"],
-Cell[18128, 472, 3356, 74, 470, "Input"]
+Cell[16915, 438, 253, 4, 61, "Section"],
+Cell[17171, 444, 1381, 36, 125, "Input"],
+Cell[18555, 482, 3356, 74, 470, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[21521, 551, 315, 5, 61, "Section"],
-Cell[21839, 558, 2565, 67, 240, "Input"],
-Cell[24407, 627, 3152, 70, 410, "Input"]
+Cell[21948, 561, 315, 5, 61, "Section"],
+Cell[22266, 568, 2565, 67, 240, "Input"],
+Cell[24834, 637, 3152, 70, 410, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[27596, 702, 160, 3, 61, "Section"],
-Cell[27759, 707, 4841, 108, 630, "Input"],
-Cell[32603, 817, 228, 5, 28, "Text"],
-Cell[32834, 824, 1436, 31, 190, "Input"]
+Cell[28023, 712, 160, 3, 61, "Section"],
+Cell[28186, 717, 4841, 108, 630, "Input"],
+Cell[33030, 827, 228, 5, 28, "Text"],
+Cell[33261, 834, 1436, 31, 190, "Input"]
 }, Open  ]]
 }, Open  ]]
 }
