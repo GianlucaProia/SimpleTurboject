@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[     36272,        923]
-NotebookOptionsPosition[     34725,        869]
-NotebookOutlinePosition[     35097,        885]
-CellTagsIndexPosition[     35054,        882]
+NotebookDataLength[     41141,       1048]
+NotebookOptionsPosition[     39398,        988]
+NotebookOutlinePosition[     39770,       1004]
+CellTagsIndexPosition[     39727,       1001]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -864,6 +864,125 @@ Cell[BoxData[
   3.7825627122264357`*^9, 3.7825627636837473`*^9}, {3.782562892448391*^9, 
   3.7825629022691126`*^9}},ExpressionUUID->"30d0bba7-1c72-4bf1-a288-\
 dca41d4ac412"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Interfacce di comunicazione", "Section",
+ CellChangeTimes->{{3.7831837619902377`*^9, 3.78318377447702*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PassComponentsParametersFromTo", "[", 
+   RowBox[{"obj1_", ",", "obj2_"}], "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"Tout", ",", "Pout", ",", "gammaOut", ",", "MachOut"}], "}"}], 
+    ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Tout", "=", 
+      RowBox[{"obj1", "@", 
+       RowBox[{
+        RowBox[{"getAirFlow", "[", "]"}], "@", 
+        RowBox[{"getTout", "[", "]"}]}]}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Pout", "=", 
+      RowBox[{"obj1", "@", 
+       RowBox[{
+        RowBox[{"getAirFlow", "[", "]"}], "@", 
+        RowBox[{"getPout", "[", "]"}]}]}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"gammaOut", "=", 
+      RowBox[{"obj1", "@", 
+       RowBox[{
+        RowBox[{"getAirFlow", "[", "]"}], "@", 
+        RowBox[{"getGamma", "[", "]"}]}]}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"MachOut", "=", 
+      RowBox[{"obj1", "@", 
+       RowBox[{
+        RowBox[{"getAirFlow", "[", "]"}], "@", 
+        RowBox[{"getMachOut", "[", "]"}]}]}]}], ";", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", 
+     RowBox[{"obj2", "@", 
+      RowBox[{
+       RowBox[{"getAirFlow", "[", "]"}], "@", 
+       RowBox[{"setTin", "[", "Tout", "]"}]}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"obj2", "@", 
+      RowBox[{
+       RowBox[{"getAirFlow", "[", "]"}], "@", 
+       RowBox[{"setPin", "[", "Pout", "]"}]}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"obj2", "@", 
+      RowBox[{
+       RowBox[{"getAirFlow", "[", "]"}], "@", 
+       RowBox[{"setGammaIn", "[", "gammaOut", "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"obj2", "@", 
+      RowBox[{
+       RowBox[{"getAirFlow", "[", "]"}], "@", 
+       RowBox[{"setMachIn", "[", "MachOut", "]"}]}]}], ";"}]}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.783183830598584*^9, 3.7831841119340253`*^9}, {
+  3.7831841487028246`*^9, 3.7831841516231403`*^9}}],
+
+Cell[TextData[StyleBox["Ciclo:",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.783184339795637*^9, 3.7831843572185955`*^9}},
+ FontSize->16],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"CalculateCycle", "[", "turbojectObject_", "]"}], ":=", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"CalculateInletOutput", "[", 
+       RowBox[{"turbojectObject", "@", 
+        RowBox[{"getInlet", "[", "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+      RowBox[{"PassComponentsParametersFromTo", "[", 
+       RowBox[{
+        RowBox[{"turbojectObject", "@", 
+         RowBox[{"getInlet", "[", "]"}]}], ",", 
+        RowBox[{"turbojectObject", "@", 
+         RowBox[{"getCompressor", "[", "]"}]}]}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"CalculateInletOutput", "[", 
+       RowBox[{"turbojectObject", "@", 
+        RowBox[{"getCompressor", "[", "]"}]}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"PassComponentsParametersFromTo", "[", 
+       RowBox[{
+        RowBox[{"turbojectObject", "@", 
+         RowBox[{"getCompressor", "[", "]"}]}], ",", 
+        RowBox[{"turbojectObject", "@", 
+         RowBox[{"getCombustor", "[", "]"}]}]}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"CalculateInletOutput", "[", 
+       RowBox[{"turbojectObject", "@", 
+        RowBox[{"getCombustor", "[", "]"}]}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"PassComponentsParametersFromTo", "[", 
+       RowBox[{
+        RowBox[{"turbojectObject", "@", 
+         RowBox[{"getCombustor", "[", "]"}]}], ",", 
+        RowBox[{"turbojectObject", "@", 
+         RowBox[{"getTurbine", "[", "]"}]}]}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"CalculateInletOutput", "[", 
+       RowBox[{"turbojectObject", "@", 
+        RowBox[{"getTurbine", "[", "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+      RowBox[{"PassComponentsParametersFromTo", "[", 
+       RowBox[{
+        RowBox[{"turbojectObject", "@", 
+         RowBox[{"getTurbine", "[", "]"}]}], ",", 
+        RowBox[{"turbojectObject", "@", 
+         RowBox[{"getNozzle", "[", "]"}]}]}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"CalculateInletOutput", "[", 
+       RowBox[{"turbojectObject", "@", 
+        RowBox[{"getNozzle", "[", "]"}]}], "]"}], ";"}]}], 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.7831843079100122`*^9, 3.783184537156825*^9}}]
 }, Open  ]]
 }, Open  ]]
 },
@@ -923,6 +1042,12 @@ Cell[28023, 712, 160, 3, 61, "Section"],
 Cell[28186, 717, 4841, 108, 630, "Input"],
 Cell[33030, 827, 228, 5, 28, "Text"],
 Cell[33261, 834, 1436, 31, 190, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34734, 870, 113, 1, 61, "Section"],
+Cell[34850, 873, 1995, 50, 270, "Input"],
+Cell[36848, 925, 146, 3, 28, "Text"],
+Cell[36997, 930, 2373, 54, 270, "Input"]
 }, Open  ]]
 }, Open  ]]
 }
