@@ -3,12 +3,14 @@
 BeginPackage["Turbofan`Components`CalculateOutput`Inlet`InletSingleJavaOutput`",
 	{
 	"Turbofan`Components`CalculateOutput`Inlet`InletMathOutput`"
-	}
-]
+	}]
+	
 (* Exported symbols added here with SymbolName::usage *)  
 
 CalculateInletTout::usage="CalculateInletTout[inletObject]";
 CalculateInletPout::usage="CalculateInletPout[inletObject]";
+
+
 
 Begin["`Private`"] (* Begin Private Context *) 
 

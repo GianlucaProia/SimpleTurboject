@@ -7,6 +7,8 @@ InletTout::usage="InletTout[Tin, MachIn, gamma]";
 IsenTFromAdiabaticEta::usage="IsenTFromAdiabaticEta[Tin, ToutReal, etad]";
 InletPout::usage="InletPout[Pin, Tin, Tout, etad, gamma]";
 
+
+
 Begin["`Private`"] (* Begin Private Context *) 
 
 	InletTout[Tin_, MachIn_, gamma_] := Tin (1 + (gamma - 1)/2 MachIn^2);
