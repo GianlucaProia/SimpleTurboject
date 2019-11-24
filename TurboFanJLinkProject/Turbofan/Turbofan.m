@@ -15,12 +15,14 @@ fun::usage="f[x]";
 	
 		InstallJava[];
 	
-		fun[x_]:=Module[{obj, compressor},
+		fun[x_]:=Module[{obj, compressor, pro},
 			
 			compressor=JavaNew["com.component.compressor.Compressor"];
 			obj=JavaNew["java.lang.String",x];	
 			obj@getBytes[];
-			compressor
+			pro=JavaNew["Prova"];
+			pro@prova[]
+			(*compressor*)
 		];
 	
 	
