@@ -7,7 +7,7 @@ BeginPackage["Turbofan`Components`CalculateOutput`Inlet`InletSingleJavaOutput`",
 	
 (* Exported symbols added here with SymbolName::usage *)  
 
-CalculateInletTout::usage="CalculateInletTout[inletObject]";
+CalculateInletTout::usage="CalculateInletTout[inletObject] calcola la temperatura di uscita dalla presa dinamica.";
 CalculateInletPout::usage="CalculateInletPout[inletObject]";
 
 
