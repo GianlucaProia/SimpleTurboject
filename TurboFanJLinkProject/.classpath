@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="javaSource"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/AirFlow"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Blade"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/CombustionCamber"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Compressor"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Fan"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/HalfStage"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Inlet"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Nozzle"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Performance"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/StreamTube"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Turbine"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/TurbofanAssociateFlowEngine"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/TurbofanITBEngine"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/TurbojectEngine"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/VelocityTriangle"/>
-	<classpathentry exported="true" kind="lib" path="C:/Program Files/Wolfram Research/Mathematica/10.0/SystemFiles/Links/JLink/JLink.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/AirFlow"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Blade"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CombustionCamber"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Compressor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Fan"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/HalfStage"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Inlet"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Nozzle"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Performance"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/StreamTube"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Turbine"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TurbofanAssociateFlowEngine"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TurbofanITBEngine"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TurbojectEngine"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/VelocityTriangle"/>
+	<classpathentry kind="lib" path="C:/Program Files/Wolfram Research/Mathematica/10.0/SystemFiles/Links/JLink/JLink.jar"/>
 	<classpathentry kind="output" path="javaOutput"/>
 </classpath>

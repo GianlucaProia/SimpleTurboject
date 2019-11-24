@@ -12,6 +12,9 @@ fun::usage="f[x]";
 	Begin["`Private`"]
 	(* Implementation of the package *)
 	
+	
+		InstallJava[];
+	
 		fun[x_]:=Module[{obj, compressor},
 			
 			compressor=JavaNew["com.component.compressor.Compressor"];
