@@ -9,20 +9,18 @@ fun::usage="f[x]";
 
 (* IL package richiama altri packages... *)
 
-Begin["`Private`"]
-(* Implementation of the package *)
-
-	fun[x_]:=Module[{obj, compressor},
-		
-		compressor=JavaNew["com.component.compressor.Compressor"];
-		obj=JavaNew["java.lang.String",x];	
-		obj@getBytes[];
-		compressor
-	];
+	Begin["`Private`"]
+	(* Implementation of the package *)
+	
+		fun[x_]:=Module[{obj, compressor},
+			
+			compressor=JavaNew["com.component.compressor.Compressor"];
+			obj=JavaNew["java.lang.String",x];	
+			obj@getBytes[];
+			compressor
+		];
 	
 	
-	
-
 
 End[]
 

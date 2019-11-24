@@ -1,6 +1,6 @@
 (* Wolfram Language Package *)
 
-BeginPackage["Turbofan`Components`Output`CompressorOutput`"]
+BeginPackage["Turbofan`Components`CalculateOutput`Inlet`InletMathOutput`"]
 (* Exported symbols added here with SymbolName::usage *)  
 
 Begin["`Private`"] (* Begin Private Context *) 
