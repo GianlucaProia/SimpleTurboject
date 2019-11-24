@@ -1,7 +1,8 @@
 (* Wolfram Language Init File *)
 
 
-Get[ "Turbofan`Turbofan`"]
-
 Needs["JLink`"];
+
+Get[ "Turbofan`Turbofan`"];
+
 InstallJava[];

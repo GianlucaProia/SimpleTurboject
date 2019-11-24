@@ -12,11 +12,12 @@ fun::usage="f[x]";
 Begin["`Private`"]
 (* Implementation of the package *)
 
-	fun[x_]:=Module[{obj},
+	fun[x_]:=Module[{obj, compressor},
 		
+		compressor=JavaNew["com.component.compressor.Compressor"];
 		obj=JavaNew["java.lang.String",x];	
-		obj@getBytes[]
-		
+		obj@getBytes[];
+		compressor
 	];
 	
 	
