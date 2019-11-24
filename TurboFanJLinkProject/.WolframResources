@@ -1,5 +1,8 @@
 Resources[
     Version[1],
+    Sources[
+        Directory["~"]
+    ],
     Java[
         Directory["javaOutput"],
         Directory["Turbofan/Java"]
