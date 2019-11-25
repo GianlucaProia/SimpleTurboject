@@ -3,7 +3,6 @@
 BeginPackage["Turbofan`CalculateOutput`Inlet`"]
 (* Exported symbols added here with SymbolName::usage *)  
 
-NewBasicInletObject::usage=" NewBasicInletObject[{Tin,Pin,gammaIn,MachOut},etad] nuova istanza dell'oggetto inlet."
 
 Begin["`Private`"] (* Begin Private Context *) 
 
@@ -18,7 +17,7 @@ Begin["`Private`"] (* Begin Private Context *)
  ];
 
  NewInletObject[{Tin_,Pin_,gammaIn_,MachOut_}, {Ain_,Aout_,etad_}]:=Module[{inletObject},
- 	 inletObject=NewBasicInletObject[{Tin_,Pin_,gammaIn_,MachOut_},etad_]
+ 	 inletObject=NewBasicInletObject[{Tin,Pin,gammaIn,MachOut},etad];
  	 inletObject@setAin[Ain];
  	 inletObject@setAout[Aout];
  	 inletObject
