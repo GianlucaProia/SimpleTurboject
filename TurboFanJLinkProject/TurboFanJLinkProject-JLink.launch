@@ -16,6 +16,6 @@
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.wolfram.workbench.jlinktools.Install"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-linkmode listen -linkname JLink-Launch900                  -com.wolfram.workbench.oslibpath &quot;C:\Users\Utente\eclipse\eclipsenew\jee-2019-09\eclipse\..\..\..\..\.p2\pool\plugins\com.wolfram.eclipse.MEET_10.1.822\os&quot; "/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-linkmode listen -linkname JLink-Launch863                   -com.wolfram.workbench.oslibpath &quot;C:\Users\Utente\eclipse\eclipsenew\jee-2019-09\eclipse\..\..\..\..\.p2\pool\plugins\com.wolfram.eclipse.MEET_10.1.822\os&quot; "/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TurboFanJLinkProject"/>
 </launchConfiguration>
