@@ -15,6 +15,7 @@ Begin["`Private`"] (* Begin Private Context *)
 
 	CalculateInletOutput[inletObject_] := Module[{},
 	   CalculateInletMachOut[inletObject];
+	   CalculateInletGammaOut[inletObject];
 	   CalculateInletTout[inletObject];
 	   CalculateInletPout[inletObject];
 	   CalculateInletVout[inletObject];

@@ -23,7 +23,6 @@ Begin["`Private`"] (* Begin Private Context *)
  	 inletObject
  ];
 
-
 End[] (* End Private Context *)
 
 EndPackage[]

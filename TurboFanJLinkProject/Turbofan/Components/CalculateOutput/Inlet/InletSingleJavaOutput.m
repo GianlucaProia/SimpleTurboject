@@ -53,6 +53,12 @@ Begin["`Private`"] (* Begin Private Context *)
 	    ];
 	];
 
+	
+	CalculateInletGammaOut[inletObject_]:=Module[{gammaIn},
+	  	gammaIn=inletObject@getAirFlowIn[]@getGamma[];  
+	    inletObject@getAirFlowOut[]@setGamma[gammaIn];
+	];
+
 End[] (* End Private Context *)
 
 EndPackage[]
