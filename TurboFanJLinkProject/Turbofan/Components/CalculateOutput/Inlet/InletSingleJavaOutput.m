@@ -48,7 +48,8 @@ Begin["`Private`"] (* Begin Private Context *)
 		       inletObject@getAout[], 
 		       inletObject@getAirFlowOut[]@getGamma[]
 	       ],
-	       inletObject@getAirFlowOut[]@setMachOut[0.0]
+	       inletObject@getAirFlowOut[]@setMachOut[0.0];
+	       Print["Il valore del Mach di uscita è 0."];
 	    ];
 	];
 
