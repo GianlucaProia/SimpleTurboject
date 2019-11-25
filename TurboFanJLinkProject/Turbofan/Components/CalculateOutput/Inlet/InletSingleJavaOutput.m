@@ -38,6 +38,20 @@ Begin["`Private`"] (* Begin Private Context *)
    		];
 
 
+	CalculateInletMachOut[inletObject_]:=Module[{condition}, 
+	    condition=inletObject@getAin[]!=0.
+	    		  &&inletObject@getAout[]!=0.
+	    		  &&inletObject@getAirFlowIn[]@getMach[]!=0 ;
+	    If[condition,
+	       CalculateMachOut[
+		       inletObject@getAin[],
+		       inletObject@getAout[], 
+		       inletObject@getAirFlowOut[]@getGamma[]
+	       ],
+	       inletObject@getAirFlowOut[]@setMachOut[0.0]
+	    ];
+	];
+
 End[] (* End Private Context *)
 
 EndPackage[]

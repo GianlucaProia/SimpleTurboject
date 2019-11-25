@@ -21,6 +21,11 @@ Begin["`Private`"] (* Begin Private Context *)
 	   Pout
 	   ];
 
+	CalculateMachOut[Ain_,Aout_,gamma_]:=Module[{},
+	 	   
+	    
+	    
+	];
 	
 End[] (* End Private Context *)
 

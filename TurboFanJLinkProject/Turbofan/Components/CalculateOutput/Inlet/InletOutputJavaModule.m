@@ -14,8 +14,10 @@ CalculateInletOutput::usage="CalculateInletOutput[inletObject]";
 Begin["`Private`"] (* Begin Private Context *) 
 
 	CalculateInletOutput[inletObject_] := Module[{},
+	   CalculateInletMachOut[inletObject];
 	   CalculateInletTout[inletObject];
 	   CalculateInletPout[inletObject];
+	   CalculateInletVout[inletObject];
 	   ];
 
 End[] (* End Private Context *)
