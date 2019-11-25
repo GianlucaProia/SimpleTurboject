@@ -25,7 +25,7 @@ Begin["`Private`"] (* Begin Private Context *)
 	   ];
 	   
 	   
-	CalculateInletPout[inletObject_] := Module[{},
+	CalculateInletPout[inletObject_] := Module[{Pout},
    			Pout = InletPout[
  				inletObject@getAirFlow[]@getPin[],
  				inletObject@getAirFlow[]@getTin[],

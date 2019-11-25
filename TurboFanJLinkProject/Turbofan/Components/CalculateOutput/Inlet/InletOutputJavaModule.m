@@ -10,7 +10,6 @@ BeginPackage["Turbofan`Components`CalculateOutput`Inlet`InletOutputJavaModule`",
 CalculateInletOutput::usage="CalculateInletOutput[inletObject]";
 
 
-
 Begin["`Private`"] (* Begin Private Context *) 
 
 	CalculateInletOutput[inletObject_] := Module[{},
