@@ -2,7 +2,7 @@
 
 BeginPackage["Turbofan`Components`CalculateOutput`Inlet`InletSingleJavaOutput`",
 	{
-	"Turbofan`Components`CalculateOutput`Inlet`InletMathOutput`"
+	"Turbofan`Gasdynamic`Thermodynamics`"
 	}]
 	
 (* Exported symbols added here with SymbolName::usage *)  
@@ -15,7 +15,7 @@ CalculateInletPout::usage="CalculateInletPout[inletObject]";
 Begin["`Private`"] (* Begin Private Context *) 
 
 	CalculateInletTout[inletObject_] := Module[{Tout},
-	   Tout = InletTout[
+	   Tout = Tout[
 	     inletObject@getAirFlow[]@getTin[],
 	     inletObject@getAirFlow[]@getMachIn[],
 	     inletObject@getAirFlow[]@getGamma[]
@@ -26,7 +26,7 @@ Begin["`Private`"] (* Begin Private Context *)
 	   
 	   
 	CalculateInletPout[inletObject_] := Module[{Pout},
-   			Pout = InletPout[
+   			Pout = Pout[
  				inletObject@getAirFlow[]@getPin[],
  				inletObject@getAirFlow[]@getTin[],
  				inletObject@getAirFlow[]@getTout[],
