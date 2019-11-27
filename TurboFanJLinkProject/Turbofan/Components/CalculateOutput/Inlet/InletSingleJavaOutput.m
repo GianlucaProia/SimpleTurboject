@@ -2,7 +2,7 @@
 
 BeginPackage["Turbofan`Components`CalculateOutput`Inlet`InletSingleJavaOutput`",
 	{
-	"Turbofan`Gasdynamic`Thermodynamics`"
+	"Turbofan`MathematicaFunctions`Gasdynamic`Thermodynamics`"
 	}]
 	
 (* Exported symbols added here with SymbolName::usage *)  

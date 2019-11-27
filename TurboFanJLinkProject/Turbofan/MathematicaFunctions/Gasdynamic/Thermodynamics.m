@@ -1,6 +1,6 @@
 (* Wolfram Language Package *)
 
-BeginPackage["Turbofan`Gasdynamic`Thermodynamics`"]
+BeginPackage["Turbofan`MathematicaFunctions`Gasdynamic`Thermodynamics`"]
 (* Exported symbols added here with SymbolName::usage *)  
 
 Begin["`Private`"] (* Begin Private Context *) 
