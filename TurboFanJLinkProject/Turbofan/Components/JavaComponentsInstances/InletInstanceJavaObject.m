@@ -1,6 +1,6 @@
 (* Wolfram Language Package *)
 
-BeginPackage["Turbofan`CalculateOutput`Inlet`"]
+BeginPackage["Turbofan`Components`JavaComponentsInstances`InletInstanceJavaObject`"]
 (* Exported symbols added here with SymbolName::usage *)  
 
 
